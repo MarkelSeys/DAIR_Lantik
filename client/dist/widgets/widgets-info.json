@@ -1,0 +1,753 @@
+[
+  {
+    "name": "ActivarDesactivarCluster",
+    "manifest": {
+      "name": "ActivarDesactivarCluster",
+      "label": "ActivarDesactivarCluster",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useDataSourcesEnabled": true,
+      "supportDataAction": false,
+      "supportedDataSourceTypes": [
+        "FEATURE_LAYER"
+      ]
+    },
+    "i18nLabel": {
+      "es": "ActivarDesactivarCluster"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/ActivarDesactivarCluster/",
+    "icon": "widgets/ActivarDesactivarCluster/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "ActualizarFiltros",
+    "manifest": {
+      "name": "ActualizarFiltros",
+      "label": "ActualizarFiltros",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/ActualizarFiltros/",
+    "icon": "widgets/ActualizarFiltros/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "chart_filters",
+    "manifest": {
+      "name": "chart_filters",
+      "label": "Filtyros activos",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "SYKGIS",
+      "description": "",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {
+      "es": "Filtros activos"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/chart_filters/",
+    "icon": "widgets/chart_filters/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "coordendas",
+    "manifest": {
+      "name": "coordendas",
+      "label": "Coordenadas",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "SyKgis",
+      "description": "Widget de coordenadas.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "i18nLabel": {
+      "es": "Coordenadas"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/coordendas/",
+    "icon": "widgets/coordendas/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "cside_op",
+    "manifest": {
+      "name": "cside_op",
+      "label": "cside_op",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is the widget used in developer guide",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "i18nLabel": {
+      "en": "Client-side Output"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/cside_op/",
+    "icon": "widgets/cside_op/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "exportarxls",
+    "manifest": {
+      "name": "exportarxls",
+      "label": "Exportar XLS",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/exportarxls/",
+    "icon": "widgets/exportarxls/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "filtros",
+    "manifest": {
+      "name": "filtros",
+      "label": "filtros",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "SyKgis",
+      "description": "Widget de leyenda dinámica.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "i18nLabel": {
+      "es": "filtros"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/filtros/",
+    "icon": "widgets/filtros/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "imprimir",
+    "manifest": {
+      "name": "imprimir",
+      "label": "imprimir",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "",
+      "description": "",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/imprimir/",
+    "icon": "widgets/imprimir/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "leyenda_dinamica",
+    "manifest": {
+      "name": "leyenda_dinamica",
+      "label": "Leyenda dinámica",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "SyKgis",
+      "description": "Widget de leyenda dinámica.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "i18nLabel": {
+      "es": "Leyenda dinámica"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/leyenda_dinamica/",
+    "icon": "widgets/leyenda_dinamica/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "manejo_atributos",
+    "manifest": {
+      "name": "manejo_atributos",
+      "label": "Leyenda dinámica",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "SyKgis",
+      "description": "Widget de leyenda dinámica.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "i18nLabel": {
+      "es": "Leyenda dinámica"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/manejo_atributos/",
+    "icon": "widgets/manejo_atributos/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "PieCHarSinSolape",
+    "manifest": {
+      "name": "PieCHarSinSolape",
+      "label": "PieCHarSinSolape",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useDataSourcesEnabled": true,
+      "supportDataAction": false,
+      "supportedDataSourceTypes": [
+        "FEATURE_LAYER"
+      ]
+    },
+    "i18nLabel": {
+      "es": "PieCHartMaximizado"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/PieCHarSinSolape/",
+    "icon": "widgets/PieCHarSinSolape/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "pruebas",
+    "manifest": {
+      "name": "pruebas",
+      "label": "pruebas",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      }
+    },
+    "i18nLabel": {
+      "es": "Pruebas"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/pruebas/",
+    "icon": "widgets/pruebas/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "RefrescarPagina",
+    "manifest": {
+      "name": "RefrescarPagina",
+      "label": "RefrescarPagina",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "Este widget se encarga de refrescar la página para actualizar los filtros",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "supportedUseMap": true,
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      },
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/RefrescarPagina/",
+    "icon": "widgets/RefrescarPagina/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "simple",
+    "manifest": {
+      "name": "simple",
+      "label": "Simple",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/simple/",
+    "icon": "widgets/simple/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "TablaContadoresAnio",
+    "manifest": {
+      "name": "TablaContadoresAnio",
+      "label": "TablaContadoresAnio",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/TablaContadoresAnio/",
+    "icon": "widgets/TablaContadoresAnio/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "TablaContadoresAñoMes",
+    "manifest": {
+      "name": "TablaContadoresAñoMes",
+      "label": "TablaContadoresAñoMes",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/TablaContadoresAñoMes/",
+    "icon": "widgets/TablaContadoresAñoMes/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "TablaContadoresDia",
+    "manifest": {
+      "name": "TablaContadoresDia",
+      "label": "TablaContadoresDia",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/TablaContadoresDia/",
+    "icon": "widgets/TablaContadoresDia/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "TablaContadoresKM",
+    "manifest": {
+      "name": "TablaContadoresKM",
+      "label": "TablaContadoresKM",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/TablaContadoresKM/",
+    "icon": "widgets/TablaContadoresKM/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "TablaContadoresMes",
+    "manifest": {
+      "name": "TablaContadoresMes",
+      "label": "TablaContadoresMes",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/TablaContadoresMes/",
+    "icon": "widgets/TablaContadoresMes/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "TablaContadoresPK",
+    "manifest": {
+      "name": "TablaContadoresPK",
+      "label": "TablaContadoresPK",
+      "type": "widget",
+      "version": "1.14.0",
+      "exbVersion": "1.14.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useMapWidget": true,
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/TablaContadoresPK/",
+    "icon": "widgets/TablaContadoresPK/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "VisualizarSimbologia",
+    "manifest": {
+      "name": "VisualizarSimbologia",
+      "label": "VisualizarSimbologia",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useDataSourcesEnabled": true,
+      "supportDataAction": false,
+      "supportedDataSourceTypes": [
+        "FEATURE_LAYER"
+      ]
+    },
+    "i18nLabel": {
+      "es": "VisualizarSimbologia"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/VisualizarSimbologia/",
+    "icon": "widgets/VisualizarSimbologia/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "WidgetUnido",
+    "manifest": {
+      "name": "WidgetUnido",
+      "label": "WidgetUnido",
+      "type": "widget",
+      "version": "1.12.0",
+      "exbVersion": "1.12.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "dependency": "jimu-arcgis",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "es",
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 400
+      },
+      "useDataSourcesEnabled": true,
+      "supportDataAction": false,
+      "supportedDataSourceTypes": [
+        "FEATURE_LAYER"
+      ]
+    },
+    "i18nLabel": {
+      "es": "WidgetUnido"
+    },
+    "i18nDescription": {
+      "es": null
+    },
+    "uri": "widgets/WidgetUnido/",
+    "icon": "widgets/WidgetUnido/icon.svg",
+    "order": 700,
+    "group": 7
+  }
+]
