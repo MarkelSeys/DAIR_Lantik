@@ -1,0 +1,23 @@
+{
+  "name": "chart_filters",
+  "label": "Filtyros activos",
+  "type": "widget",
+  "version": "1.12.0",
+  "exbVersion": "1.12.0",
+  "author": "SYKGIS",
+  "description": "",
+  "copyright": "",
+  "dependency": "jimu-arcgis",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "es",
+    "en"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  },
+  "useMapWidget": true,
+"useMapWidgetIds": ["widget_1"]
+}

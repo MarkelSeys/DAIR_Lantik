@@ -1,0 +1,21 @@
+{
+  "name": "RefrescarPagina",
+  "label": "RefrescarPagina",
+  "type": "widget",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "Este widget se encarga de refrescar la página para actualizar los filtros",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+    "supportedUseMap": true,
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  },
+  "useMapWidgetIds": ["widget_1"]
+}

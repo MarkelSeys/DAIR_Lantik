@@ -1,0 +1,27 @@
+{
+  "created": 1751879355590,
+  "description": "",
+  "id": "18",
+  "modified": 1751879367746,
+  "owner": "Dair_admin",
+  "tags": [],
+  "thumbnail": null,
+  "title": "Cuadro de mandos dinámico CONTADORES COPIA",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Draft",
+    "version:1.14.0",
+    "publishVersion:1.14.0"
+  ],
+  "portalUrl": "https://dair.maps.arcgis.com",
+  "username": "Dair_admin",
+  "isLocalApp": true,
+  "userRole": "org_admin",
+  "success": true,
+  "text": "",
+  "clearEmptyFields": true
+}

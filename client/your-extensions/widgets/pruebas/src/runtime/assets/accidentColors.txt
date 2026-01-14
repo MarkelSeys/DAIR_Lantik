@@ -1,0 +1,225 @@
+{
+    "Subtipo de accidente": {
+        "alcance": {
+            "color": "rgba(255, 224, 193, 1)",
+            "nombre": "Alcance"
+        },
+        "multiple_o_en_caravana": {
+            "color": "rgba(255, 153, 51, 1)",
+            "nombre": "Múltiple o en caravana"
+        },
+        "caida_en_calzada": {
+            "color": "rgba(0, 255, 0, 1)",
+            "nombre": "Caida en calzada"
+        },
+        "choque_con_arbol_o_poste_dcha": {
+            "color": "rgba(255, 225, 255, 1)",
+            "nombre": "Choque con árbol o poste dcha"
+        },
+        "choque_con_arbol_o_poste_izqd": {
+            "color": "rgba(215, 107, 205, 1)",
+            "nombre": "Choque con árbol o poste izqd"
+        },
+        "choque_con_cuneta_o_bordillo": {
+            "color": "rgba(37, 105, 173, 1)",
+            "nombre": "Choque con cuneta o bordillo"
+        },
+        "choque_con_cuneta_o_bordillo_izqd": {
+            "color": "rgba(21, 61, 100, 1)",
+            "nombre": "Choque con cuneta o bordillo izqd"
+        },
+        "choque_con_murete_o_edificio": {
+            "color": "rgba(190, 233, 173, 1)",
+            "nombre": "Choque con murete o edificio"
+        },
+        "choque_con_murete_o_edificio_izqd": {
+            "color": "rgba(74, 154, 42, 1)",
+            "nombre": "Choque con murete o edificio izqd"
+        },
+        "otro_tipo_de_choque": {
+            "color": "rgba(213, 171, 129, 1)",
+            "nombre": "Otro tipo de choque"
+        },
+        "otro_tipo_de_choque_izqd": {
+            "color": "rgba(164, 109, 54, 1)",
+            "nombre": "Otro tipo de choque izqd"
+        },
+        "en_llano": {
+            "color": "rgba(255, 255, 75, 1)",
+            "nombre": "En llano"
+        },
+        "en_llano_izqd": {
+            "color": "rgba(255, 219, 105, 1)",
+            "nombre": "En llano izqd"
+        },
+        "con_vuelco": {
+            "color": "rgba(255, 175, 177, 1)",
+            "nombre": "Con vuelco"
+        },
+        "con_vuelco_izqd": {
+            "color": "rgba(255, 124, 128, 1)",
+            "nombre": "Con vuelco izqd"
+        },
+        "con_despenamiento": {
+            "color": "rgba(245, 235, 255, 1)",
+            "nombre": "Con despeñamiento"
+        },
+        "con_despenamiento_izqd": {
+            "color": "rgba(217, 179, 255, 1)",
+            "nombre": "Con despeñamiento izqd"
+        },
+        "otra_salida": {
+            "color": "rgba(199, 199, 199, 1)",
+            "nombre": "Otra salida"
+        },
+        "otra_salida_izqd": {
+            "color": "rgba(138, 138, 138, 1)",
+            "nombre": "Otra salida izqd"
+        },
+        "solo_salida_de_via": {
+            "color": "rgba(204, 56, 186, 1)",
+            "nombre": "Sólo Salida de Vía"
+        },
+        "despenamiento": {
+            "color": "rgba(81, 21, 74, 1)",
+            "nombre": "Despeñamiento"
+        },
+        "vuelco_en_la_calzada": {
+            "color": "rgba(253, 23, 138, 1)",
+            "nombre": "Vuelco en la calzada"
+        },
+        "otro": {
+            "color": "rgba(255, 171, 227, 1)",
+            "nombre": "Otro"
+        },
+        "frontal": {
+            "color": "rgba(192, 230, 245, 1)",
+            "nombre": "Frontal"
+        },
+        "frontal_izqd": {
+            "color": "rgba(94, 184, 246, 1)",
+            "nombre": "Frontal izqd"
+        },
+        "fronto_lateral": {
+            "color": "rgba(94, 184, 246, 1)",
+            "nombre": "Fronto lateral"
+        },
+        "fronto_lateral_izqd": {
+            "color": "rgba(15, 65, 177, 1)",
+            "nombre": "Fronto lateral izqd"
+        },
+        "fronto_lateral_adyacente": {
+            "color": "rgba(184, 231, 254, 1)",
+            "nombre": "Fronto lateral adyacente"
+        },
+        "fronto_lateral_adyacente_izqd": {
+            "color": "rgba(190, 233, 173, 1)",
+            "nombre": "Fronto lateral adyacente izqd"
+        },
+        "lateral": {
+            "color": "rgba(255, 255, 153, 1)",
+            "nombre": "Lateral"
+        },
+        "lateral_izqd": {
+            "color": "rgba(255, 190, 125, 1)",
+            "nombre": "Lateral izqd"
+        },
+        "fronto_posterior": {
+            "color": "rgba(255, 153, 51, 1)",
+            "nombre": "Fronto posterior"
+        },
+        "fronto_posterior_izqd": {
+            "color": "rgba(255, 224, 193, 1)",
+            "nombre": "Fronto posterior izqd"
+        },
+        "peaton_no_irrumpe_persona": {
+            "color": "rgba(217, 179, 255, 1)",
+            "nombre": "Peatón (no irrumpe Persona)"
+        },
+        "peaton_no_irrumpe_persona_izqd": {
+            "color": "rgba(213, 171, 129, 1)",
+            "nombre": "Peatón (no irrumpe Persona) izqd"
+        },
+        "animal_suelto": {
+            "color": "rgba(74, 154, 42, 1)",
+            "nombre": "Animal suelto"
+        },
+        "caida_de_carga": {
+            "color": "rgba(190, 233, 173, 1)",
+            "nombre": "Caída de carga"
+        },
+        "colision_multiple": {
+            "color": "rgba(184, 231, 254, 1)",
+            "nombre": "Colisión múltiple"
+        },
+        "otro_resto": {
+            "color": "rgba(255, 255, 153, 1)",
+            "nombre": "Otro (resto)"
+        },
+        "sin_datos": {
+            "color": "rgba(151, 151, 151, 1)",
+            "nombre": "Sin datos"
+        }
+    },
+    "Superficie": {
+        "no_consta": {
+            "color": "rgba(191, 191, 191, 1)",
+            "nombre": "No consta"
+        },
+        "seca_y_limpia": {
+            "color": "rgba(190, 233, 173, 1)",
+            "nombre": "Seca y limpia"
+        },
+        "umbria": {
+            "color": "rgba(184, 231, 254, 1)",
+            "nombre": "Umbría"
+        },
+        "mojada": {
+            "color": "rgba(94, 184, 246, 1)",
+            "nombre": "Mojada"
+        },
+        "muy_encharcado_o_inundado": {
+            "color": "rgba(15, 65, 177, 1)",
+            "nombre": "Muy encharcado o inundado"
+        },
+        "helada": {
+            "color": "rgba(238, 245, 252, 1)",
+            "nombre": "Helada"
+        },
+        "nevada": {
+            "color": "rgba(255, 255, 243, 1)",
+            "nombre": "Nevada"
+        },
+        "aceite": {
+            "color": "rgba(255, 255, 153, 1)",
+            "nombre": "Aceite"
+        },
+        "con_barro_o_gravilla_suelta": {
+            "color": "rgba(255, 190, 125, 1)",
+            "nombre": "Con Barro o Gravilla Suelta"
+        },
+        "otro_tipo": {
+            "color": "rgba(217, 179, 255, 1)",
+            "nombre": "Otro tipo"
+        },
+        "gravilla_suelta": {
+            "color": "rgba(255, 224, 193, 1)",
+            "nombre": "Gravilla suelta"
+        },
+        "barrillo": {
+            "color": "rgba(255, 155, 55, 1)",
+            "nombre": "Barrillo"
+        },
+        "sin_datos": {
+            "color": "rgba(151, 151, 151, 1)",
+            "nombre": "Sin datos"
+        }
+    },
+    "Luminosidad": {
+        "no_consta": {
+            "color": "rgba(191, 191, 191, 1)",
+            "nombre": "No consta"
+        },
+        "luz_del_dia_natural_solar": {
+            "color": "rgba(255, 255, 75, 1)",
+            "nombre": "Luz del d

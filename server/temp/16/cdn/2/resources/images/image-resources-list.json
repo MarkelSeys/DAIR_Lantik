@@ -1,0 +1,44 @@
+{
+  "1718016821740": {
+    "originalName": "bizkaia-forualdundia.jpg",
+    "fileName": "1718016821740.jpg",
+    "size": 44442,
+    "url": "${appResourceUrl}/images/widget_24/1718016821740.jpg",
+    "created": 1718016821740,
+    "resourcesPrefix": "images/widget_24",
+    "referedIds": [],
+    "originId": "1718016821740",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 373,
+    "originalHeight": 189
+  },
+  "1745584270795": {
+    "originalName": "expandir (2).png",
+    "fileName": "1745584270795.png",
+    "size": 6133,
+    "url": "${appResourceUrl}/images/widget_70/1745584270795.png",
+    "created": 1745584270795,
+    "resourcesPrefix": "images/widget_70",
+    "referedIds": [],
+    "originId": "1745584270795",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 512,
+    "originalHeight": 512
+  },
+  "1745584309163": {
+    "originalName": "expandir (1).png",
+    "fileName": "1745584309163.png",
+    "size": 3221,
+    "url": "${appResourceUrl}/images/widget_70/1745584309163.png",
+    "created": 1745584309163,
+    "resourcesPrefix": "images/widget_70",
+    "referedIds": [],
+    "originId": "1745584309163",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 512,
+    "originalHeight": 512
+  }
+}

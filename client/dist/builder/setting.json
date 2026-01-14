@@ -1,0 +1,9 @@
+{
+  "devEnv": {
+    "prod": {
+      "portalUrl": "https://dair.maps.arcgis.com",
+      "clientId": "isxa7Jqqd4RyocW9",
+      "isWebTier": false
+    }
+  }
+}

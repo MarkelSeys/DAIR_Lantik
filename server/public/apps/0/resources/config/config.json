@@ -1,0 +1,2265 @@
+{
+  "pages": {
+    "page_1": {
+      "id": "page_1",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_3"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Página 2",
+      "header": false,
+      "footer": false
+    }
+  },
+  "layouts": {
+    "layout_1": {
+      "content": {},
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "30.8%",
+            "right": "21.6%",
+            "top": "3.2%",
+            "bottom": "45.2%",
+            "width": "47.6%",
+            "height": "51.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "1.0%",
+            "right": "55.6%",
+            "top": "55.7%",
+            "bottom": "4.3%",
+            "width": "43.4%",
+            "height": "40.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "80.1%",
+            "right": "12.0%",
+            "top": "40.5%",
+            "bottom": "53.8%",
+            "width": "8.0%",
+            "height": "5.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "60.8%",
+            "right": "9.5%",
+            "top": "95.6%",
+            "bottom": "1.7%",
+            "width": "380px",
+            "height": "21px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "45.5%",
+            "right": "1.9%",
+            "top": "55.8%",
+            "bottom": "4.8%",
+            "width": "52.6%",
+            "height": "39.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_4": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_5": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_6": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    }
+  },
+  "exbVersion": "1.14.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_3": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.14.0",
+      "label": "Mapa 2",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_3",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_4"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_4": {
+      "uri": "widgets/common/chart/",
+      "version": "1.14.0",
+      "label": "Gráfico",
+      "config": {
+        "tools": {
+          "cursorEnable": true
+        },
+        "template": "column",
+        "webChart": {
+          "version": "7.3.1",
+          "id": "column",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Año"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
+                }
+              ],
+              "orderByFields": [
+                "Año ASC"
+              ],
+              "where": "Tipo_accidente={value}"
+            }
+          },
+          "sortLabelsBy": "originalValue",
+          "rotated": false,
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "",
+              "name": "",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente=''"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Alcances",
+              "name": "Alcances",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#77B484",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Alcances'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Atropellos de animales",
+              "name": "Atropellos de animales",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DF6B35",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Atropellos de animales'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Atropellos de peatones",
+              "name": "Atropellos de peatones",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DBCF4E",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Atropellos de peatones'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Caidas",
+              "name": "Caidas",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#41546D",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Caidas'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Choques",
+              "name": "Choques",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#8257C2",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Choques'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Colisiones",
+              "name": "Colisiones",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6558B",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Colisiones'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Otros",
+              "name": "Otros",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Otros'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Salidas de vía",
+              "name": "Salidas de vía",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#77B484",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Salidas de vía'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Vuelcos",
+              "name": "Vuelcos",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DF6B35",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Vuelcos'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "__other-split-value__",
+              "name": "Undefined",
+              "x": "Año",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='__other-split-value__'"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_4",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Año",
+            "OBJECTID",
+            "Tipo_accidente"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_4_ouput"
+      ]
+    },
+    "widget_5": {
+      "uri": "widgets/common/controller/",
+      "version": "1.14.0",
+      "label": "Controlador de widget",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {
+            "widget_6": {
+              "width": 648,
+              "height": 484
+            }
+          }
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_5",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_5"
+        }
+      }
+    },
+    "widget_6": {
+      "uri": "widgets/coordendas/",
+      "version": "1.12.0",
+      "label": "Coordenadas",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_6",
+      "useMapWidgetIds": [
+        "widget_3"
+      ]
+    },
+    "widget_9": {
+      "uri": "widgets/control-the-widget-state/",
+      "version": "1.14.0",
+      "label": "Control the Widget State",
+      "config": null,
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.14.0",
+      "label": "Navegación por vistas",
+      "config": {
+        "data": {
+          "type": "AUTO",
+          "section": "section_1",
+          "views": [
+            "view_1"
+          ]
+        },
+        "display": {
+          "type": "navButtonGroup",
+          "navStyle": "default",
+          "standard": {
+            "showPageNumber": true,
+            "previousText": "",
+            "previousIcon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M11.347 2.146a.485.485 0 0 1 0 .708L5.76 8l5.587 5.146a.486.486 0 0 1 0 .708.538.538 0 0 1-.738 0l-5.956-5.5a.485.485 0 0 1 0-.708l5.956-5.5a.538.538 0 0 1 .738 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Flecha de deslizamiento a izquierda",
+                "size": 16,
+                "originalName": "outlined/directional/left.svg"
+              }
+            },
+            "nextText": "",
+            "nextIcon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M4.653 13.854a.485.485 0 0 1 0-.708L10.24 8 4.653 2.854a.485.485 0 0 1 0-.708.538.538 0 0 1 .738 0l5.956 5.5a.485.485 0 0 1 0 .708l-5.956 5.5a.538.538 0 0 1-.738 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Flecha de deslizamiento a derecha",
+                "size": 16,
+                "originalName": "outlined/directional/right.svg"
+              }
+            }
+          },
+          "vertical": false,
+          "advanced": false,
+          "variant": null
+        }
+      },
+      "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/common/chart/",
+      "version": "1.14.0",
+      "label": "Gráfico 2",
+      "config": {
+        "tools": {
+          "cursorEnable": true
+        },
+        "template": "column",
+        "webChart": {
+          "version": "7.3.1",
+          "id": "column",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Kilometro"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
+                }
+              ],
+              "orderByFields": [
+                "Kilometro ASC"
+              ],
+              "where": "Tipo_accidente={value}"
+            }
+          },
+          "sortLabelsBy": "originalValue",
+          "rotated": false,
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "",
+              "name": "",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente=''"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Alcances",
+              "name": "Alcances",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#77B484",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Alcances'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Atropellos de animales",
+              "name": "Atropellos de animales",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DF6B35",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Atropellos de animales'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Atropellos de peatones",
+              "name": "Atropellos de peatones",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DBCF4E",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Atropellos de peatones'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Caidas",
+              "name": "Caidas",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#41546D",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Caidas'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Choques",
+              "name": "Choques",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#8257C2",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Choques'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Colisiones",
+              "name": "Colisiones",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6558B",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Colisiones'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Otros",
+              "name": "Otros",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Otros'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Salidas de vía",
+              "name": "Salidas de vía",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#77B484",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Salidas de vía'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "Vuelcos",
+              "name": "Vuelcos",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DF6B35",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='Vuelcos'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "__other-split-value__",
+              "name": "Undefined",
+              "x": "Kilometro",
+              "y": "OBJECTID",
+              "colorType": "singleColor",
+              "stackedType": "stacked",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DBCF4E",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "rotated": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "Tipo_accidente='__other-split-value__'"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--light-300)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_11",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Kilometro",
+            "OBJECTID"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_11_ouput"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "Vista",
+      "layout": {
+        "LARGE": "layout_6"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Sección",
+      "views": [
+        "view_1"
+      ]
+    }
+  },
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Web Map Pruebas-Copia",
+      "itemId": "5ef68bc6848a4d9fb253177ce47637ca",
+      "portalUrl": "https://Dair.maps.arcgis.com"
+    },
+    "widget_4_ouput": {
+      "id": "widget_4_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Estadísticas de Gráfico",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "Estadísticas de Gráfico",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "__outputid__"
+          },
+          "Año": {
+            "jimuName": "Año",
+            "name": "Año",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Año",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "originFields": [
+              "Año"
+            ]
+          },
+          "count_of_OBJECTID_of_": {
+            "jimuName": "count_of_OBJECTID_of_",
+            "name": "count_of_OBJECTID_of_",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of ",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Alcances": {
+            "jimuName": "count_of_OBJECTID_of_Alcances",
+            "name": "count_of_OBJECTID_of_Alcances",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Alcances",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Atropellos de animales": {
+            "jimuName": "count_of_OBJECTID_of_Atropellos de animales",
+            "name": "count_of_OBJECTID_of_Atropellos de animales",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Atropellos de animales",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Atropellos de peatones": {
+            "jimuName": "count_of_OBJECTID_of_Atropellos de peatones",
+            "name": "count_of_OBJECTID_of_Atropellos de peatones",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Atropellos de peatones",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Caidas": {
+            "jimuName": "count_of_OBJECTID_of_Caidas",
+            "name": "count_of_OBJECTID_of_Caidas",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Caidas",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Choques": {
+            "jimuName": "count_of_OBJECTID_of_Choques",
+            "name": "count_of_OBJECTID_of_Choques",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Choques",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Colisiones": {
+            "jimuName": "count_of_OBJECTID_of_Colisiones",
+            "name": "count_of_OBJECTID_of_Colisiones",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Colisiones",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Otros": {
+            "jimuName": "count_of_OBJECTID_of_Otros",
+            "name": "count_of_OBJECTID_of_Otros",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Otros",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Salidas de vía": {
+            "jimuName": "count_of_OBJECTID_of_Salidas de vía",
+            "name": "count_of_OBJECTID_of_Salidas de vía",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Salidas de vía",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Vuelcos": {
+            "jimuName": "count_of_OBJECTID_of_Vuelcos",
+            "name": "count_of_OBJECTID_of_Vuelcos",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Vuelcos",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          }
+        }
+      }
+    },
+    "widget_11_ouput": {
+      "id": "widget_11_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Estadísticas de Gráfico 2",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "Estadísticas de Gráfico 2",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "__outputid__"
+          },
+          "Kilometro": {
+            "jimuName": "Kilometro",
+            "name": "Kilometro",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Kilometro",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "originFields": [
+              "Kilometro"
+            ]
+          },
+          "count_of_OBJECTID_of_": {
+            "jimuName": "count_of_OBJECTID_of_",
+            "name": "count_of_OBJECTID_of_",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of ",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Alcances": {
+            "jimuName": "count_of_OBJECTID_of_Alcances",
+            "name": "count_of_OBJECTID_of_Alcances",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Alcances",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Atropellos de animales": {
+            "jimuName": "count_of_OBJECTID_of_Atropellos de animales",
+            "name": "count_of_OBJECTID_of_Atropellos de animales",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Atropellos de animales",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Atropellos de peatones": {
+            "jimuName": "count_of_OBJECTID_of_Atropellos de peatones",
+            "name": "count_of_OBJECTID_of_Atropellos de peatones",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Atropellos de peatones",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Caidas": {
+            "jimuName": "count_of_OBJECTID_of_Caidas",
+            "name": "count_of_OBJECTID_of_Caidas",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Caidas",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Choques": {
+            "jimuName": "count_of_OBJECTID_of_Choques",
+            "name": "count_of_OBJECTID_of_Choques",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Choques",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Colisiones": {
+            "jimuName": "count_of_OBJECTID_of_Colisiones",
+            "name": "count_of_OBJECTID_of_Colisiones",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Colisiones",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Otros": {
+            "jimuName": "count_of_OBJECTID_of_Otros",
+            "name": "count_of_OBJECTID_of_Otros",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Otros",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Salidas de vía": {
+            "jimuName": "count_of_OBJECTID_of_Salidas de vía",
+            "name": "count_of_OBJECTID_of_Salidas de vía",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Salidas de vía",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          },
+          "count_of_OBJECTID_of_Vuelcos": {
+            "jimuName": "count_of_OBJECTID_of_Vuelcos",
+            "name": "count_of_OBJECTID_of_Vuelcos",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "Count of OBJECTID of Vuelcos",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "OBJECTID",
+              "Tipo_accidente"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_4",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_3-filter-1713336630458",
+          "widgetId": "widget_3",
+          "messageWidgetId": "widget_4",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "widget_4_ouput",
+              "mainDataSourceId": "widget_4_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Año"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Año"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "widget_4_ouput",
+              "mainDataSourceId": "widget_4_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Año"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Año"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_3",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1713361388258",
+          "messageWidgetId": "widget_3",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "mainDataSourceId": "dataSource_1-AccidentesSeys_1709_5211",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://Dair.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "originExbVersion": "1.14.0",
+  "pageStructure": [
+    {
+      "page_1": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_1"
+    },
+    "height": {
+      "LARGE": 75
+    }
+  },
+  "timestamp": 1713426913779
+}

@@ -1,0 +1,31 @@
+{
+  "created": 1713261129399,
+  "description": "",
+  "id": "0",
+  "modified": 1713426913852,
+  "owner": "Dair_admin",
+  "tags": [],
+  "thumbnail": "thumbnail/thumbnail1713261129605.png",
+  "title": "Dashboard interactivo",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "JavaScript",
+    "publishVersion:1.14.0",
+    "Ready To Use",
+    "status: Draft",
+    "version:1.14.0",
+    "Web Application",
+    "Web Experience",
+    "Web Mapping Application",
+    "Web Page",
+    "Web Site"
+  ],
+  "portalUrl": "https://dair.maps.arcgis.com",
+  "username": "Dair_admin",
+  "f": "json",
+  "token": "undefined",
+  "name": "Dashboard interactivo",
+  "isLocalApp": true
+}

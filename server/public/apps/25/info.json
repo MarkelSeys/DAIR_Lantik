@@ -1,0 +1,29 @@
+{
+  "created": 1765878908331,
+  "description": "",
+  "id": "25",
+  "modified": 1765884710548,
+  "owner": "Dair_admin",
+  "tags": [],
+  "thumbnail": null,
+  "title": "Prueba Gráfico-Scroll",
+  "type": "Web Experience",
+  "snippet": "",
+  "typeKeywords": [
+    "EXB Experience",
+    "Ready To Use",
+    "JavaScript",
+    "status: Published",
+    "version:1.14.0",
+    "publishVersion:1.14.0"
+  ],
+  "portalUrl": "https://dair.maps.arcgis.com",
+  "username": "Dair_admin",
+  "isLocalApp": true,
+  "userRole": "org_admin",
+  "success": true,
+  "text": "",
+  "clearEmptyFields": true,
+  "url": null,
+  "name": "Prueba Gráfico-Scroll"
+}

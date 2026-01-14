@@ -1,0 +1,14 @@
+[
+  {
+    "portalUrl": "https://dair.maps.arcgis.com",
+    "clientId": "isxa7Jqqd4RyocW9",
+    "supportsOAuth": true,
+    "isWebTier": false
+  },
+  {
+    "portalUrl": "https://gis.seystic.com/portal",
+    "clientId": "3Rk4rqiB5wbFEg53",
+    "supportsOAuth": true,
+    "isWebTier": false
+  }
+]

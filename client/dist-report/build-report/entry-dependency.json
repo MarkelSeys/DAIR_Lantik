@@ -1,0 +1,678 @@
+{
+  "nodes": [
+    {
+      "name": "widgets/coordendas/dist/runtime/widget",
+      "size": 295611
+    },
+    {
+      "name": "widgets/coordendas/dist/setting/setting",
+      "size": 1732
+    },
+    {
+      "name": "widgets/filtros/dist/runtime/widget",
+      "size": 4703
+    },
+    {
+      "name": "widgets/filtros/dist/setting/setting",
+      "size": 5396
+    },
+    {
+      "name": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "size": 19023
+    },
+    {
+      "name": "widgets/leyenda_dinamica/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/pruebas/dist/runtime/widget",
+      "size": 934815
+    },
+    {
+      "name": "widgets/pruebas/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/simple/dist/runtime/widget",
+      "size": 1507
+    },
+    {
+      "name": "widgets/chart_filters/dist/runtime/widget",
+      "size": 67608
+    },
+    {
+      "name": "widgets/chart_filters/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/cside_op/dist/runtime/widget",
+      "size": 6077
+    },
+    {
+      "name": "widgets/cside_op/dist/setting/setting",
+      "size": 4911
+    },
+    {
+      "name": "widgets/imprimir/dist/runtime/widget",
+      "size": 832664
+    },
+    {
+      "name": "widgets/manejo_atributos/dist/runtime/widget",
+      "size": 19177
+    },
+    {
+      "name": "widgets/manejo_atributos/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/RefrescarPagina/dist/runtime/widget",
+      "size": 4833
+    },
+    {
+      "name": "widgets/TablaContadoresAnio/dist/runtime/widget",
+      "size": 1685583
+    },
+    {
+      "name": "widgets/TablaContadoresAnio/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/TablaContadoresPK/dist/runtime/widget",
+      "size": 1678881
+    },
+    {
+      "name": "widgets/TablaContadoresPK/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/TablaContadoresAñoMes/dist/runtime/widget",
+      "size": 1687982
+    },
+    {
+      "name": "widgets/TablaContadoresAñoMes/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/TablaContadoresDia/dist/runtime/widget",
+      "size": 1685791
+    },
+    {
+      "name": "widgets/TablaContadoresDia/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/TablaContadoresKM/dist/runtime/widget",
+      "size": 1685232
+    },
+    {
+      "name": "widgets/TablaContadoresKM/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/TablaContadoresMes/dist/runtime/widget",
+      "size": 1686873
+    },
+    {
+      "name": "widgets/TablaContadoresMes/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/ActualizarFiltros/dist/runtime/widget",
+      "size": 50555
+    },
+    {
+      "name": "widgets/ActualizarFiltros/dist/setting/setting",
+      "size": 4137
+    },
+    {
+      "name": "widgets/PieCHarSinSolape/dist/runtime/widget",
+      "size": 3972367
+    },
+    {
+      "name": "widgets/PieCHarSinSolape/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/VisualizarSimbologia/dist/runtime/widget",
+      "size": 10521
+    },
+    {
+      "name": "widgets/VisualizarSimbologia/dist/setting/setting",
+      "size": 2570
+    },
+    {
+      "name": "widgets/WidgetUnido/dist/runtime/widget",
+      "size": 10729
+    },
+    {
+      "name": "widgets/WidgetUnido/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/ActivarDesactivarCluster/dist/runtime/widget",
+      "size": 7341
+    },
+    {
+      "name": "widgets/ActivarDesactivarCluster/dist/setting/setting",
+      "size": 4576
+    },
+    {
+      "name": "widgets/exportarxls/dist/runtime/widget",
+      "size": 906440
+    }
+  ],
+  "links": [
+    {
+      "source": "widgets/coordendas/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/coordendas/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/coordendas/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/coordendas/dist/runtime/widget",
+      "target": "jimu-core/react-dom"
+    },
+    {
+      "source": "widgets/coordendas/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/coordendas/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/filtros/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/filtros/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/filtros/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/filtros/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/filtros/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/filtros/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "esri/renderers/UniqueValueRenderer"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "esri/smartMapping/renderers/pieChart"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/runtime/widget",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/leyenda_dinamica/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "jimu-core/react-dom"
+    },
+    {
+      "source": "widgets/pruebas/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/pruebas/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/pruebas/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/simple/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/chart_filters/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/chart_filters/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/chart_filters/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/chart_filters/dist/runtime/widget",
+      "target": "jimu-core/react-dom"
+    },
+    {
+      "source": "widgets/chart_filters/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/chart_filters/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/chart_filters/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/chart_filters/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/cside_op/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/cside_op/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/cside_op/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/cside_op/dist/setting/setting",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/cside_op/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/cside_op/dist/setting/setting",
+      "target": "jimu-ui/advanced/sql-expression-builder"
+    },
+    {
+      "source": "widgets/cside_op/dist/setting/setting",
+      "target": "jimu-ui/basic/sql-expression-runtime"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "esri/renderers/UniqueValueRenderer"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "esri/smartMapping/renderers/pieChart"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/pruebas/dist/runtime/widget",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/imprimir/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "esri/renderers/UniqueValueRenderer"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "esri/smartMapping/renderers/pieChart"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/runtime/widget",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/manejo_atributos/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/RefrescarPagina/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/RefrescarPagina/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/RefrescarPagina/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAnio/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAnio/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAnio/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAnio/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/TablaContadoresAnio/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/TablaContadoresPK/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/TablaContadoresPK/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresPK/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresPK/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/TablaContadoresPK/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/TablaContadoresAñoMes/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAñoMes/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAñoMes/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresAñoMes/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/TablaContadoresAñoMes/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/TablaContadoresDia/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/TablaContadoresDia/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresDia/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresDia/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/TablaContadoresDia/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/TablaContadoresKM/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/TablaContadoresKM/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresKM/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresKM/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/TablaContadoresKM/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/TablaContadoresMes/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/TablaContadoresMes/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresMes/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/TablaContadoresMes/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/TablaContadoresMes/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/ActualizarFiltros/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/VisualizarSimbologia/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/VisualizarSimbologia/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/VisualizarSimbologia/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/VisualizarSimbologia/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/VisualizarSimbologia/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/VisualizarSimbologia/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/WidgetUnido/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/WidgetUnido/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/WidgetUnido/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/WidgetUnido/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/WidgetUnido/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/WidgetUnido/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/PieCHarSinSolape/dist/runtime/widget",
+      "target": "jimu-core/react-dom"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/runtime/widget",
+      "target": "esri/smartMapping/renderers/pieChart"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/ActivarDesactivarCluster/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/exportarxls/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/exportarxls/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    }
+  ]
+}

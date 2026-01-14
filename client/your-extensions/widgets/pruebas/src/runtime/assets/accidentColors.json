@@ -1,0 +1,179 @@
+{
+  
+"Tipo_accidente": {
+
+  "salidas_de_via": {
+    "color": "rgba(203, 0, 203, 1)",
+    "nombre": "Salidas de vía"
+  },
+  "colisiones": {
+    "color": "rgba(101, 178, 255, 1)",
+    "nombre": "Colisiones"
+  },
+  "alcances": {
+    "color": "rgba(255, 153, 50, 1)",
+    "nombre": "Alcances"
+  },
+  "choques": {
+    "color": "rgba(153, 255, 229, 1)",
+    "nombre": "Choques"
+  },
+  "otros": {
+    "color": "rgba(0, 63, 255, 1)",
+    "nombre": "Otros"
+  },
+  "atropellos_de_animales": {
+    "color": "rgba(255, 255, 50, 1)",
+    "nombre": "Atropellos de animales"
+  },
+  "caidas": {
+    "color": "rgba(140, 255, 101, 1)",
+    "nombre": "Caídas"
+  },
+  "vuelcos": {
+    "color": "rgba(255, 0, 197, 1)",
+    "nombre": "Vuelcos"
+  },
+  "atropellos_de_peatones": {
+    "color": "rgba(216, 255, 101, 1)",
+    "nombre": "Atropellos de peatones"
+  },
+  "sin_datos": {
+    "color": "rgba(182, 182, 182, 1)",
+    "nombre": "Sin datos"
+  },
+  "no_definido": {
+    "color": "rgba(214, 214, 214, 1)",
+    "nombre": "No definido"
+  }
+},
+"Sentido": {
+  "Ascendente": { "color": "rgba(255,125,125,1)", "nombre": "Ascendente" },
+  "Descendente": { "color": "rgba(77,147,217,1)", "nombre": "Descendente" },
+  "Sin_datos": { "color": "rgba(151,151,151,1)", "nombre": "Sin datos" }
+},
+  "Superficie": {
+    "no_consta": { "color": "rgba(191,191,191,1)", "nombre": "No consta" },
+    "seca_y_limpia": { "color": "rgba(190,233,173,1)", "nombre": "Seca y limpia" },
+    "umbria": { "color": "rgba(184,231,254,1)", "nombre": "Umbría" },
+    "mojada": { "color": "rgba(94,184,246,1)", "nombre": "Mojada" },
+    "muy_encharcado_o_inundado": { "color": "rgba(15,65,177,1)", "nombre": "Muy encharcado o inundado" },
+    "helada": { "color": "rgba(238,245,252,1)", "nombre": "Helada" },
+    "nevada": { "color": "rgba(255,255,243,1)", "nombre": "Nevada" },
+    "aceite": { "color": "rgba(255,255,153,1)", "nombre": "Aceite" },
+    "con_barro_o_gravilla_suelta": { "color": "rgba(255,190,125,1)", "nombre": "Con barro o gravilla suelta" },
+    "gravilla_suelta": { "color": "rgba(255,224,193,1)", "nombre": "Gravilla suelta" },
+    "barrillo": { "color": "rgba(255,155,55,1)", "nombre": "Barrillo" },
+    "otro_tipo": { "color": "rgba(217,179,255,1)", "nombre": "Otro tipo" },
+    "sin_datos": { "color": "rgba(151,151,151,1)", "nombre": "Sin datos" }
+  },
+
+  "Luminosidad": {
+    "no_consta": { "color": "rgba(191,191,191,1)", "nombre": "No consta" },
+    "luz_del_dia_natural_solar": { "color": "rgba(255,255,75,1)", "nombre": "Luz del día natural, solar" },
+    "amanecer_o_atardecer_con_luz_artificial": { "color": "rgba(255,219,105,1)", "nombre": "Amanecer o atardecer con luz artificial" },
+    "amanecer_o_atardecer_sin_luz_artificial": { "color": "rgba(255,176,97,1)", "nombre": "Amanecer o atardecer sin luz artificial" },
+    "sin_luz_natural_luz_artificial_suficiente": { "color": "rgba(255,225,255,1)", "nombre": "Sin luz natural, luz artificial suficiente" },
+    "sin_luz_natural_luz_artificial_insuficiente": { "color": "rgba(37,105,173,1)", "nombre": "Sin luz natural, luz artificial insuficiente" },
+    "sin_iluminacion_natural_ni_artificial": { "color": "rgba(21,61,100,1)", "nombre": "Sin iluminación natural ni artificial" },
+    "crepusculo": { "color": "rgba(244,191,162,1)", "nombre": "Crepúsculo" },
+    "sin_datos": { "color": "rgba(151,151,151,1)", "nombre": "Sin datos" }
+  },
+
+  "Factores_atmosfericos": {
+    "no_consta": { "color": "rgba(191,191,191,1)", "nombre": "No consta" },
+    "despejado": { "color": "rgba(255,255,75,1)", "nombre": "Despejado" },
+    "niebla_intensa": { "color": "rgba(240,241,227,1)", "nombre": "Niebla intensa" },
+    "niebla_ligera": { "color": "rgba(255,255,204,1)", "nombre": "Niebla ligera" },
+    "lluvia_debil": { "color": "rgba(185,255,255,1)", "nombre": "Lluvia débil" },
+    "lluvia_fuerte": { "color": "rgba(117,171,225,1)", "nombre": "Lluvia fuerte" },
+    "granizando": { "color": "rgba(37,105,173,1)", "nombre": "Granizando" },
+    "nevando": { "color": "rgba(21,61,100,1)", "nombre": "Nevando" },
+    "viento_fuerte": { "color": "rgba(241,169,131,1)", "nombre": "Viento fuerte" },
+    "nublado": { "color": "rgba(217,217,217,1)", "nombre": "Nublado" },
+    "otro": { "color": "rgba(217,179,255,1)", "nombre": "Otro" },
+    "sin_datos": { "color": "rgba(151,151,151,1)", "nombre": "Sin datos" }
+  },
+
+  "Tipo_dia": {
+    "festivo": { "color": "rgba(255,124,128,1)", "nombre": "Festivo" },
+    "laborable": { "color": "rgba(190,233,173,1)", "nombre": "Laborable" },
+    "posterior_a_festivo": { "color": "rgba(217,179,255,1)", "nombre": "Posterior a festivo" },
+    "vispera_de_festivo": { "color": "rgba(255,190,125,1)", "nombre": "Víspera de festivo" },
+    "sin_datos": { "color": "rgba(151,151,151,1)", "nombre": "Sin datos" }
+  },
+
+  "Factor_Concurrente_3": {
+    "adelantamiento_antirreglamentario": { "color": "rgba(255,215,175,1)", "nombre": "Adelantamiento antirreglamentario" },
+    "alcohol": { "color": "rgba(74,154,42,1)", "nombre": "Alcohol" },
+    "alcohol_o_drogas": { "color": "rgba(190,233,173,1)", "nombre": "Alcohol o drogas" },
+    "averia_mecanica": { "color": "rgba(185,255,255,1)", "nombre": "Avería mecánica" },
+    "caida_de_carga_en_la_calzada": { "color": "rgba(255,219,105,1)", "nombre": "Caída de carga en la calzada" },
+    "cansancio_sueno_o_enfermedad": { "color": "rgba(245,235,255,1)", "nombre": "Cansancio, sueño o enfermedad" },
+    "conduccion_distraida_o_desatenta": { "color": "rgba(217,179,255,1)", "nombre": "Conducción distraida o desatenta" },
+    "conduccion_negligente": { "color": "rgba(255,55,60,1)", "nombre": "Conducción negligente" },
+    "conduccion_temeraria": { "color": "rgba(255,124,128,1)", "nombre": "Conducción temeraria" },
+    "distraccion": { "color": "rgba(217,179,255,1)", "nombre": "Distracción" },
+    "drogas": { "color": "rgba(190,233,173,1)", "nombre": "Drogas" },
+    "enfermedad": { "color": "rgba(21,61,100,1)", "nombre": "Enfermedad" },
+    "estado_o_condicion_de_la_senalizacion": { "color": "rgba(238,238,238,1)", "nombre": "Estado o condición de la señalización" },
+    "estado_o_condicion_de_la_via": { "color": "rgba(191,191,191,1)", "nombre": "Estado o condición de la vía" },
+    "giro_incorrecto": { "color": "rgba(254,218,227,1)", "nombre": "Giro incorrecto" },
+    "inexperiencia_del_conductor": { "color": "rgba(176,254,235,1)", "nombre": "Inexperiencia del conductor" },
+    "infraccion_a_norma_de_circulacion": { "color": "rgba(255,175,177,1)", "nombre": "Infracción a norma de circulación" },
+    "irrumpir_animal_en_calzada": { "color": "rgba(213,171,129,1)", "nombre": "Irrumpir animal en calzada" },
+    "irrumpir_peaton_en_calzada": { "color": "rgba(164,109,54,1)", "nombre": "Irrumpir peatón en calzada" },
+    "mal_estado_del_vehiculo": { "color": "rgba(117,171,225,1)", "nombre": "Mal estado del vehículo" },
+    "meteorologia_adversa": { "color": "rgba(37,105,173,1)", "nombre": "Meteorología adversa" },
+    "no_mantener_intervalo_de_seguridad": { "color": "rgba(255,182,109,1)", "nombre": "No mantener intervalo de seguridad" },
+    "no_respetar_prioridad": { "color": "rgba(255,153,51,1)", "nombre": "No respetar prioridad" },
+    "obstaculo_en_calzada": { "color": "rgba(255,219,105,1)", "nombre": "Obstáculo en calzada" },
+    "otro_factor": { "color": "rgba(255,193,255,1)", "nombre": "Otro factor" },
+    "presencia_de_un_obstaculo_en_la_calzada": { "color": "rgba(255,219,105,1)", "nombre": "Presencia de un obstáculo en la calzada" },
+    "sin_opinion_definida": { "color": "rgba(255,255,204,1)", "nombre": "Sin opinión definida" },
+    "tramo_en_obras": { "color": "rgba(255,255,75,1)", "nombre": "Tramo en obras" },
+    "velocidad_inadecuada": { "color": "rgba(190,125,255,1)", "nombre": "Velocidad inadecuada" }
+  },
+
+  "Subtipo_Accidente": {
+    "alcance": { "color": "rgba(255,224,193,1)", "nombre": "Alcance" },
+    "multiple_o_en_caravana": { "color": "rgba(255,153,51,1)", "nombre": "Múltiple o en caravana" },
+    "caida_en_calzada": { "color": "rgba(0,255,0,1)", "nombre": "Caida en calzada" },
+    "choque_con_arbol_o_poste": { "color": "rgba(255,225,255,1)", "nombre": "Choque con árbol o poste" },
+    "choque_con_arbol_o_poste_izqd": { "color": "rgba(215,107,205,1)", "nombre": "Choque con árbol o poste izqd" },
+    "choque_con_cuneta_o_bordillo": { "color": "rgba(37,105,173,1)", "nombre": "Choque con cuneta o bordillo" },
+    "choque_con_cuneta_o_bordillo_izqd": { "color": "rgba(21,61,100,1)", "nombre": "Choque con cuneta o bordillo izqd" },
+    "choque_con_murete_o_edificio": { "color": "rgba(190,233,173,1)", "nombre": "Choque con murete o edificio" },
+    "choque_con_murete_o_edificio_izqd": { "color": "rgba(74,154,42,1)", "nombre": "Choque con murete o edificio izqd" },
+    "otro_tipo_de_choque": { "color": "rgba(213,171,129,1)", "nombre": "Otro tipo de choque" },
+    "otro_tipo_de_choque_izqd": { "color": "rgba(164,109,54,1)", "nombre": "Otro tipo de choque izqd" },
+    "en_llano": { "color": "rgba(255,255,75,1)", "nombre": "En llano" },
+    "en_llano_izqd": { "color": "rgba(255,219,105,1)", "nombre": "En llano izqd" },
+    "con_vuelco": { "color": "rgba(255,175,177,1)", "nombre": "Con vuelco" },
+    "con_vuelco_izqd": { "color": "rgba(255,124,128,1)", "nombre": "Con vuelco izqd" },
+    "con_despenamiento": { "color": "rgba(245,235,255,1)", "nombre": "Con despeñamiento" },
+    "con_despenamiento_izqd": { "color": "rgba(217,179,255,1)", "nombre": "Con despeñamiento izqd" },
+    "otra_salida": { "color": "rgba(199,199,199,1)", "nombre": "Otra salida" },
+    "otra_salida_izqd": { "color": "rgba(138,138,138,1)", "nombre": "Otra salida izqd" },
+    "solo_salida_de_via": { "color": "rgba(204,56,186,1)", "nombre": "Sólo Salida de Vía" },
+    "despenamiento": { "color": "rgba(81,21,74,1)", "nombre": "Despeñamiento" },
+    "vuelco_en_la_calzada": { "color": "rgba(253,23,138,1)", "nombre": "Vuelco en la calzada" },
+    "otro": { "color": "rgba(0,0,255,1)", "nombre": "Otro" },
+    "frontal": { "color": "rgba(192,230,245,1)", "nombre": "Frontal" },
+    "frontolateral": { "color": "rgba(94,184,246,1)", "nombre": "Frontolateral" },
+    "lateral": { "color": "rgba(6,83,136,1)", "nombre": "Lateral" },
+    "obstaculo_o_elemento_de_la_via": { "color": "rgba(176,254,235,1)", "nombre": "Obstáculo o elemento de la vía" },
+    "otro_objeto_o_material": { "color": "rgba(15,241,214,1)", "nombre": "Otro objeto o material" },
+    "vehiculo_estacionado_averiado": { "color": "rgba(10,178,158,1)", "nombre": "Vehículo estacionado/averiado" },
+    "barrera_de_paso_a_nivel": { "color": "rgba(6,98,87,1)", "nombre": "Barrera de paso a nivel" },
+    "valla_de_defensa": { "color": "rgba(11,245,156,1)", "nombre": "Valla de defensa" },
+    "choque_contra_barrera_de_seguridad": { "color": "rgba(24,130,74,1)", "nombre": "Choque contra barrera de seguridad" },
+    "peaton_aislado": { "color": "rgba(139,208,0,1)", "nombre": "Peatón aislado" },
+    "peaton_aislado_o_en_grupo": { "color": "rgba(97,146,0,1)", "nombre": "Peatón aislado o en grupo" },
+    "peaton_sosteniendo_bicicleta": { "color": "rgba(194,255,71,1)", "nombre": "Peatón sosteniendo bicicleta" },
+    "peaton_reparando_vehiculo": { "color": "rgba(159,248,144,1)", "nombre": "Peatón reparando vehículo" },
+    "conductor_de_animales": { "color": "rgba(217,201,83,1)", "nombre": "Conductor de animales" },
+    "animal_conducido_o_rebano": { "color": "rgba(255,255,0,1)", "nombre": "Animal conducido o rebaño" },
+    "animales_sueltos": { "color": "rgba(255,255,159,1)", "nombre": "Animales sueltos" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "1745585345131.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1745585345131.png",
+    "properties": {
+      "filename": "1745585345131.png",
+      "originalName": "expandir (2).png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1745585345131.png",
+      "inlineSvg": false
+    }
+  },
+  "1745585654708.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1745585654708.png",
+    "properties": {
+      "filename": "1745585654708.png",
+      "originalName": "expandir (1).png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1745585654708.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  }
+}

@@ -1,0 +1,163 @@
+/* =========================
+   DIAG BAR
+   ========================= */
+.diag-bar {
+  padding: 6px 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+}
+
+/* =========================
+   CHART (gráfico)
+   ========================= */
+.acc-chart-wrapper {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.acc-chart-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.acc-chart-left {
+  flex: 0 0 auto;
+}
+
+.acc-chart-right-viewport {
+  flex: 1 1 auto;
+  overflow: hidden; /* sin scrollbar en el chart */
+  padding: 6px 0;
+}
+
+.acc-chart-right-inner {
+  height: 100%;
+  will-change: transform;
+  transition: none !important;
+}
+
+/* =========================
+   SCROLL HORIZONTAL COMPARTIDO
+   (única barra visible)
+   ========================= */
+.acc-hscroll {
+  height: 14px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #f3f3f3;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.acc-hscroll-inner {
+  height: 1px; /* suficiente para que exista scroll */
+}
+
+/* =========================
+   TABULATOR BASE LOOK
+   ========================= */
+.custom-tabulator,
+.custom-tabulator .tabulator-tableHolder,
+.custom-tabulator .tabulator-tableholder {
+  background: #fff !important;
+}
+
+.tabulator .tabulator-header {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+}
+
+.tabulator-row:nth-child(even) { background-color: #fafafa !important; }
+.tabulator-row:nth-child(odd) { background-color: #fff !important; }
+.tabulator-row:hover { background-color: #f2f7ff !important; }
+
+.tabulator .tabulator-footer,
+.tabulator .tabulator-calcs-holder {
+  background-color: #f5f5f5 !important;
+  font-weight: 600;
+  border-top: 2px solid #ddd;
+}
+
+.tabulator-cell {
+  font-size: 13px;
+  color: #333;
+  border-right: none !important;
+}
+
+.tabulator-row {
+  border-bottom: 1px solid #eee !important;
+}
+
+/* =========================
+   CLAVE: con frozen Tabulator crea 2 holders
+   - El NO frozen suele ser hijo directo de .tabulator
+   - Los de frozen van dentro de wrappers .tabulator-frozen-*
+   ========================= */
+
+/* ✅ NO FROZEN holder: debe poder hacer scrollLeft (pero ocultamos su scrollbar) */
+.custom-tabulator .tabulator > .tabulator-tableholder,
+.custom-tabulator .tabulator > .tabulator-tableHolder {
+  overflow-x: auto !important;   /* NECESARIO */
+  overflow-y: auto !important;
+  scrollbar-width: none;         /* Firefox: oculta barra */
+}
+
+.custom-tabulator .tabulator > .tabulator-tableholder::-webkit-scrollbar,
+.custom-tabulator .tabulator > .tabulator-tableHolder::-webkit-scrollbar {
+  height: 0px;                   /* Chrome/Edge/Safari: oculta barra */
+}
+
+/* ✅ FROZEN holders: nunca scroll horizontal */
+.custom-tabulator .tabulator-frozen .tabulator-tableholder,
+.custom-tabulator .tabulator-frozen .tabulator-tableHolder,
+.custom-tabulator .tabulator-frozen-left .tabulator-tableholder,
+.custom-tabulator .tabulator-frozen-left .tabulator-tableHolder,
+.custom-tabulator .tabulator-frozen-right .tabulator-tableholder,
+.custom-tabulator .tabulator-frozen-right .tabulator-tableHolder {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+/* =========================
+   FROZEN: fondo opaco + z-index
+   ========================= */
+.custom-tabulator .tabulator-frozen,
+.custom-tabulator .tabulator-frozen-left,
+.custom-tabulator .tabulator-frozen-right {
+  background: #fff !important;
+  z-index: 20 !important;
+  box-shadow: 3px 0 6px rgba(0,0,0,0.08);
+}
+
+.custom-tabulator .tabulator-col.tabulator-frozen {
+  background: #fff !important;
+  z-index: 25 !important;
+}
+
+.custom-tabulator .tabulator-cell.tabulator-frozen {
+  background: #fff !important;
+  z-index: 24 !important;
+}
+
+/* esquina header frozen */
+.custom-tabulator .tabulator-header .tabulator-col.tabulator-frozen {
+  z-index: 30 !important;
+}
+
+/* =========================
+   FIJAR ALTURA VISUAL DE FILAS
+   ========================= */
+.custom-tabulator .tabulator-row {
+  min-height: 30px !important;
+}
+
+.custom-tabulator .tabulator-row .tabulator-cell {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 30px !important;
+}
